@@ -1,0 +1,83 @@
+div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+}
+
+img {
+    width: 50%;
+    height: 80vh;
+}
+
+div.keys img {
+    width: 2%;
+    height: 2%;
+    /* position: relative;
+    left: 400px;
+    bottom: 200px */
+}
+
+div.keys .tecla-N {
+    position: relative;
+    left: 430px;
+    bottom: 430px 
+}
+
+div.keys .tecla-S {
+    position: relative;
+    left: 480px;
+    bottom: 390px 
+}
+
+div.keys .tecla-V {
+    position: relative;
+    left: 520px;
+    bottom: 330px 
+}
+
+div.keys .tecla-C {
+    position: relative;
+    left: 610px;
+    bottom: 330px 
+}
+
+div.keys .tecla-D {
+    position: relative;
+    left: 669px;
+    bottom: 370px 
+}
+
+div.keys .tecla-W {
+    position: relative;
+    left: 740px;
+    bottom: 370px 
+}
+
+div.keys .tecla-H {
+    position: relative;
+    left: 590px;
+    bottom: 290px 
+}
+
+div.keys .tecla-J {
+    position: relative;
+    left: 460px;
+    bottom: 200px 
+}
+
+div.keys .tecla-R {
+    position: relative;
+    left: 380px;
+    bottom: 200px 
+}
+
+div.keys .tecla-A {
+    position: relative;
+    left: 250px;
+    bottom: 220px 
+}
