@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script/main.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -16,16 +17,22 @@
         <img src="assets/drumSet.jpg" alt="Bateria">
     </div>
     <div class=keys>
-        <img src="https://image.flaticon.com/icons/png/512/31/31582.png" alt="tecla N" class="tecla-N">
-        <img src="https://image.flaticon.com/icons/png/512/31/31038.png" alt="tecla S" class="tecla-S">
-        <img src="https://image.flaticon.com/icons/png/512/31/31019.png" alt="tecla V" class="tecla-V">
-        <img src="https://image.flaticon.com/icons/png/512/32/32512.png" alt="tecla C" class="tecla-C">
-        <img src="https://image.flaticon.com/icons/png/512/30/30860.png" alt="tecla D" class="tecla-D">
-        <img src="https://image.flaticon.com/icons/png/512/31/31504.png" alt="tecla W" class="tecla-W">
-        <img src="https://image.flaticon.com/icons/png/512/31/31526.png" alt="tecla H" class="tecla-H">
-        <img src="https://image.flaticon.com/icons/png/512/30/30968.png" alt="tecla J" class="tecla-J">
-        <img src="https://image.flaticon.com/icons/png/512/31/31929.png" alt="tecla R" class="tecla-R">
-        <img src="https://image.flaticon.com/icons/png/512/31/31261.png" alt="tecla A" class="tecla-A">
+        <img src="https://image.flaticon.com/icons/png/512/31/31582.png" alt="tecla N" class="keys tecla-N" data-key-code="KeyN">
+        <img src="https://image.flaticon.com/icons/png/512/31/31038.png" alt="tecla S" class="keys tecla-S" data-key-code="KeyS">
+        <img src="https://image.flaticon.com/icons/png/512/31/31019.png" alt="tecla V" class="keys tecla-V" data-key-code="KeyV">
+        <img src="https://image.flaticon.com/icons/png/512/32/32512.png" alt="tecla C" class="keys tecla-C" data-key-code="KeyC">
+        <img src="https://image.flaticon.com/icons/png/512/30/30860.png" alt="tecla D" class="keys tecla-D" data-key-code="KeyD">
+        <img src="https://image.flaticon.com/icons/png/512/31/31504.png" alt="tecla W" class="keys tecla-W" data-key-code="KeyW">
+        <img src="https://image.flaticon.com/icons/png/512/31/31526.png" alt="tecla H" class="keys tecla-H" data-key-code="KeyH">
+        <img src="https://image.flaticon.com/icons/png/512/30/30968.png" alt="tecla J" class="keys tecla-J" data-key-code="KeyJ">
+        <img src="https://image.flaticon.com/icons/png/512/31/31929.png" alt="tecla R" class="keys tecla-R" data-key-code="KeyR">
+        <img src="https://image.flaticon.com/icons/png/512/31/31261.png" alt="tecla A" class="keys tecla-A" data-key-code="KeyA">
     </div>
+
+    <audio class="hit-hat-sound"  src="sounds/hihat.wav"></audio>
+    <audio class="bass-sound"  src="sounds/bass.wav"></audio>
+    <audio class="snare-sound"  src="sounds/snare.wav"></audio>
+    <audio class="tom-sound"  src="sounds/tom.wav"></audio>
+    <audio class="ride-sound"  src="sounds/ride.wav"></audio>
 </body>
 </html>
